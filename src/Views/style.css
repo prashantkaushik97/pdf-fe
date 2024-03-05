@@ -1,0 +1,142 @@
+/* Auth Form Container */
+.auth-form {
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Smoother shadow for dark mode */
+    border-radius: 8px;
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+}
+
+/* Auth Form Headings */
+.auth-form h2 {
+    text-align: center;
+    color: #fff; /* Light text for dark background */
+}
+
+/* Input Group */
+.input-group {
+    margin-bottom: 20px;
+    width: 93%;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc; /* Lighter text for readability */
+}
+
+/* Inputs */
+.input-group input {
+    width: 100%;
+    padding: 12px; /* Slightly more padding for a better feel */
+    background-color: rgba(0, 0, 0, 0.3); /* Dark input background */
+    border: 1px solid #555; /* Darker border for input */
+    border-radius: 5px; /* Rounded corners for inputs */
+    color: #e0e0e0; /* Light text for inputs */
+}
+
+.input-group input:focus {
+    border-color: #007bff; /* Highlight effect on focus */
+    outline: none; /* Remove default focus outline */
+    background-color: rgba(0, 0, 0, 0.4); /* Slightly lighter on focus for visibility */
+}
+
+/* Buttons */
+.auth-form button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #007bff; /* Button background */
+    color: white;
+    cursor: pointer;
+    border: none; /* Remove border */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.auth-form button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.auth-form button:focus {
+    outline: none; /* Remove focus outline */
+    box-shadow: none; /* Remove focus shadow */
+}
+/* ChatBox.css */
+
+.chatbox-container {
+    background-color: rgba(10, 10, 10, 0.8); /* Dark background with more transparency */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Slight border for definition */
+}
+
+.messages-container {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(50, 50, 50, 0.5); /* Slightly transparent background */
+    border-radius: 5px;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.message.user {
+    background-color: rgba(30, 144, 255, 0.6); /* User message styling with transparency */
+    text-align: right;
+    margin-left: auto;
+    width: fit-content;
+    border: 1px solid rgba(30, 144, 255, 0.8); /* Slight border for definition */
+}
+
+.message-form {
+    display: flex;
+    gap: 10px;
+}
+
+.message-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Slightly visible border */
+    border-radius: 5px;
+    background-color: rgba(100, 100, 100, 0.5); /* Transparent input field */
+    color: white;
+}
+
+.send-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent button */
+    color: white;
+    cursor: pointer;
+}
+
+.file-upload-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.file-upload-label {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Slight border for definition */
+}
+
+.file-input {
+    display: none;
+}

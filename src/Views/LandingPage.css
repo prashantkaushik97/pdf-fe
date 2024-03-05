@@ -1,0 +1,188 @@
+/* General body settings for dark mode */
+body {
+    background: url('https://b.kisscc0.com/20180517/uww/kisscc0-imac-macbook-pro-desktop-wallpaper-apple-download-nature-5afd97bf1c7881.9318799115265688951166.jpg');
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* semi-transparent white */
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Heading and Paragraph */
+h1 {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #ccc;
+    font-size: 16px;
+}
+
+/* Dropzone */
+.dropzone {
+    border-radius: 5px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.3); /* semi-transparent black */
+    color: #bdbdbd;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.dropzone:focus {
+    outline: none;
+    border-color: #0056b3;
+}
+
+.dropzone:hover {
+    background-color: rgba(0, 0, 0, 0.4); /* slightly more transparent */
+}
+
+.dropzone p {
+    margin: 0;
+    font-size: 16px;
+    color: #e0e0e0;
+}
+/* Dropzone */
+.propmtzone {
+    border-radius: 30px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    color: #bdbdbd;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, border-color 0.3s;
+    max-width:85%;
+    min-height: 20px;
+    height: 20px;
+}
+
+.propmtzone:focus {
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.8); /* Adjust focus border color and opacity */
+}
+
+.propmtzone:hover {
+    background-color: rgba(0, 0, 0, 0.4); /* slightly more transparent */
+}
+
+.propmtzone p {
+    margin: 2px;
+    font-size: 12px;
+    color: #e0e0e0;
+    margin-top: 10px;
+}
+
+/* File Input */
+input[type="file"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #e0e0e0;
+    transition: background-color 0.3s;
+}
+
+input[type="file"]:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* File List */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+button, .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover, .btn:hover {
+    background-color: #0056b3;
+}
+
+button:active, .btn:active {
+    background-color: #004085;
+}
+
+button:focus, .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+.styled-input {
+    width: 99%;
+    padding: 20px; 
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    color: #e0e0e0;
+    font-size: 18px; 
+    transition: background-color 0.3s, border-color 0.3s;
+    resize: both; 
+    overflow: auto; 
+    min-height: 50px; 
+    box-sizing: border-box; 
+}
+
+.styled-input:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.8); 
+    outline: none;
+}
+
+.styled-input::placeholder {
+    color: #ccc;
+}
+
+.transparent-input {
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    padding: 10px;
+    color: #fff; /* Text color */
+    outline: none; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #bdbdbd;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, border-color 0.3s;
+    max-height: 0px;
+}
+
+.transparent-input:focus {
+    border-color: rgba(255, 255, 255, 0.8); 
+    outline: none;
+}
